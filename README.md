@@ -1,12 +1,12 @@
-# Sintaxis-y-Semantaica-de-los-Lenguajes
++ # Sintaxis-y-Semantaica-de-los-Lenguajes
 
 
-#** Curso: K2051
++Curso: K2051
 
-#** Año: 2020
++**Año: 2020
 
-#** Legajo: 1606244
++*Legajo: 1606244
 
-#** Apellido: Maceda
++ *Apellido: Maceda
 
-#** Nombre : Ezequiel
++ *Nombre : Ezequiel
