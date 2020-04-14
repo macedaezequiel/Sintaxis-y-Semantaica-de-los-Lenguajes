@@ -34,7 +34,7 @@ sino por que a alguien le interesa
 
 calcularPromedio(a,n);
 
-int calcularPromedio(int[] a, int n)
+int calcularPromedio(int a[], int n)
 {
 int promedio=0;
 int sumatoria=0;
