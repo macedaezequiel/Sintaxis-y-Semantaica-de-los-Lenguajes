@@ -18,7 +18,7 @@ niveles: léxico, sintáctico, y semántico.
 
 * Sintaxis.
 
-*Semántica.
+* Semántica.
 
 ### 5.3. Tareas
 
