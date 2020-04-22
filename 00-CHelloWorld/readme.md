@@ -1,6 +1,6 @@
 # "Hello, World!" en C
 
-# Encunciado
+## Encunciado
 
 ### 3.1. Objetivos
 
@@ -56,6 +56,6 @@ readme.md, hello.c, y output.txt .
 11.La última tarea es informar por email al profesor el usuario GitHub.
 
 
-# Compilador
+## Compilador
 
 El compilador seleccionado fue MinGW, recomendado en el siguiente [paper](https://josemariasola.github.io/papers/Compiladores,%20Editores%20y%20Entornos%20de%20Desarrollo.pdf)
