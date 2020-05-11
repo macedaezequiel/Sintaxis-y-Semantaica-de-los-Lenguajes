@@ -101,11 +101,11 @@ valor 42 debe surgir de una variable.
 
 9. Para ensamblar sin vincular uso el siguiente comando: gcc -c hello4.c. Se crea el archivo hello4.o.
 
-10. Para este punto modifico la funcion prontf que no existe y la escribo como printf. Se crea el ejecutable.
+11. Para este punto modifico la funcion prontf que no existe y la escribo como printf. Se crea el ejecutable.
 
 12. Como a printf no le paso su segundo parametro, en el que deberia poner la variable a la que hace referencia %d, cada vez que lo ejecuto me da un valor distinto.
 
-13.  
+13.  Agrego la variable "i" como segundo parametro para que printf tenga una referencia que vaya acorde con "%d"
 
 15. hello7.c funciona porque le estoy especificando a printf que el valor uqe quiero que ponga en lugar del %d es el que esta en la variable i.
 
