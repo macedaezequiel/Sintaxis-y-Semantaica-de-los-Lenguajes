@@ -89,6 +89,8 @@ valor 42 debe surgir de una variable.
 
 2. Para preprocesar hello2.c uso el comando gcc -E hello2.c -o hello2.i. El resultado que observo es que se genera hello2.i
 
+3.
+
 4. En la primer linea declara la función printf. Int es el tipo de dato que retorna la funcion, printf es el nombre de la funcion, entre parentesis van los parametros que la fucion espera. const char * es el tipo de dato que espera que le pasen. "s" es el nombre de la variable que usara la funcion para trabajar con los datos que reciba por parametros.
 
 5. Para preprocesar hello3.c uso el comando -E hello3.c -o hello3.i. La diferencia es que en hello3.i hay cuantro lineas extra al comienzo del archivo.
@@ -100,6 +102,8 @@ valor 42 debe surgir de una variable.
 8. En hello4.s puedo observar lenguaje assembler, identifico muchas funciones vistas en clase.
 
 9. Para ensamblar sin vincular uso el siguiente comando: gcc -c hello4.c. Se crea el archivo hello4.o.
+
+10.
 
 11. Para este punto modifico la funcion prontf que no existe y la escribo como printf. Se crea el ejecutable.
 
