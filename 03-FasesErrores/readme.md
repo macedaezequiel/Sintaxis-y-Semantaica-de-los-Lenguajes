@@ -101,7 +101,7 @@ valor 42 debe surgir de una variable.
 
 9. Para ensamblar sin vincular uso el siguiente comando: gcc -c hello4.c. Se crea el archivo hello4.o.
 
-10. Para este punto modifico la funcion prontf que no existe y la escribo como printf. Además incluyo la libreria standard. Se crea el ejecutable.
+10. Para este punto modifico la funcion prontf que no existe y la escribo como printf. Se crea el ejecutable.
 
 12. Como a printf no le paso su segundo parametro, en el que deberia poner la variable a la que hace referencia %d, cada vez que lo ejecuto me da un valor distinto.
 
