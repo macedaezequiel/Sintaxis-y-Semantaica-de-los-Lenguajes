@@ -111,5 +111,7 @@ valor 42 debe surgir de una variable.
 
 13.  Agrego la variable "i" como segundo parametro para que printf tenga una referencia que vaya acorde con "%d"
 
-15. hello7.c funciona porque le estoy especificando a printf que el valor uqe quiero que ponga en lugar del %d es el que esta en la variable i.
+14.
+
+15. hello7.c funciona porque por default se busca cualquier funcion no desarrollada en la biblioteca standard, aunque el compilador genera un warning.
 
