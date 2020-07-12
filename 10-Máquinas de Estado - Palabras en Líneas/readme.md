@@ -80,7 +80,7 @@ goto.
 
 Nota: Aunque en el gráfico no supe como agregarlo, el estado inicial debería tener un supraindice con el simbolo '-' y el estado final uno con el '+'.
 
-### b)
+#### b)
 
 Formalizo la máquina de estados como una 5-upla de la siguiente manera  (Q, Σ, T, q0, F),
 
