@@ -62,25 +62,23 @@ goto.
 
 # Resolución
 
-1)b. Insertar imagen de arbol de expresion para inicializar contadores 2
-  c. Insertar imagen de arbol de expresion 2
+1
+
+#### b. Arbol de expresión para la inicialización de contadores
+![alt text](https://github.com/macedaezequiel/Sintaxis-y-Semantaica-de-los-Lenguajes/blob/master/10-M%C3%A1quinas%20de%20Estado%20-%20Palabras%20en%20L%C3%ADneas/Images/Arbol%20de%20expresion%20-%20Inicializacion%20de%20contadores.png "Arbol de expresión para la inicialización de contadores")
 
 
+#### c. Arbol de expresión para el Control del segundo If
 
-
-
-
-
-
-
-
-
-
+![alt text](https://github.com/macedaezequiel/Sintaxis-y-Semantaica-de-los-Lenguajes/blob/master/10-M%C3%A1quinas%20de%20Estado%20-%20Palabras%20en%20L%C3%ADneas/Images/Arbol%20de%20expresion%20-%20Control%20del%20segundo%20if.png "Arbol de expresión para el Control del segundo If")
 
 2
 
-a)
-Aunque en el gráfico no supe como agregarlo, el estado inicial debería tener un supraindice con el simbolo '-+' y el estado final uno con el '+'.
+#### a. Maquina de estados - Problema planteado
+
+![alt text](https://github.com/macedaezequiel/Sintaxis-y-Semantaica-de-los-Lenguajes/blob/master/10-M%C3%A1quinas%20de%20Estado%20-%20Palabras%20en%20L%C3%ADneas/Images/Maquina%20de%20estados%20-%20Problema%20planteado.png "Maquina de estados - Problema planteado")
+
+Nota: Aunque en el gráfico no supe como agregarlo, el estado inicial debería tener un supraindice con el simbolo '-' y el estado final uno con el '+'.
 
 b)
 
