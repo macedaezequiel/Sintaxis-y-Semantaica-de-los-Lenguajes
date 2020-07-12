@@ -62,7 +62,7 @@ goto.
 
 # Resolución
 
-1
+## 1
 
 #### b. Arbol de expresión para la inicialización de contadores
 ![alt text](https://github.com/macedaezequiel/Sintaxis-y-Semantaica-de-los-Lenguajes/blob/master/10-M%C3%A1quinas%20de%20Estado%20-%20Palabras%20en%20L%C3%ADneas/Images/Arbol%20de%20expresion%20-%20Inicializacion%20de%20contadores.png "Arbol de expresión para la inicialización de contadores")
@@ -72,7 +72,7 @@ goto.
 
 ![alt text](https://github.com/macedaezequiel/Sintaxis-y-Semantaica-de-los-Lenguajes/blob/master/10-M%C3%A1quinas%20de%20Estado%20-%20Palabras%20en%20L%C3%ADneas/Images/Arbol%20de%20expresion%20-%20Control%20del%20segundo%20if.png "Arbol de expresión para el Control del segundo If")
 
-2
+## 2
 
 #### a. Maquina de estados - Problema planteado
 
@@ -80,7 +80,7 @@ goto.
 
 Nota: Aunque en el gráfico no supe como agregarlo, el estado inicial debería tener un supraindice con el simbolo '-' y el estado final uno con el '+'.
 
-b)
+### b)
 
 Formalizo la máquina de estados como una 5-upla de la siguiente manera  (Q, Σ, T, q0, F),
 
@@ -91,7 +91,7 @@ Formalizo la máquina de estados como una 5-upla de la siguiente manera  (Q, Σ,
 * T: Q x Σ -> Q es la función de transiciones, es decir: T (q, x) = z significa que z es el estado al
 cual transita la máquina de estados desde el estado q, al leer el carácter x.
 
-3
+## 3
 
 a) ii. *Agregar ventajas y desventajas de esta version*
 
