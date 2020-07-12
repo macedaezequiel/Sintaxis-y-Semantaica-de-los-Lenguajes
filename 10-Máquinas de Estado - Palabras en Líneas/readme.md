@@ -7,7 +7,8 @@ de líneas en la salida coincide con la cantidad de palabras en la entrada. Cada
 línea tiene solo una palabra.
 
 ### Tareas
-1. Árboles de Expresión
+
+#### 1. Árboles de Expresión
 
 a. Estudiar el programa del ejemplo las sección 1.5.4 Conteo de Palabras
 de [KR1988].
@@ -16,14 +17,14 @@ b. Dibujar el árbol de expresión para la inicialización de los contadores: nl
 c. Dibujar el árbol de expresión para la expresión de control del segundo if:
 c == ' ' || c == '\n' || c == '\t'.
 
-2. Máquina de Estado:
+#### 2. Máquina de Estado:
 
 a. Describir en lenguaje dot [DOT2015] y dentro del archivo wl.gv la
 máquina de estado que resuelve el problema planteado.
 b. Formalizar la máquina de estados como una n-upla, basarse en el
 Capítulo #1 del Volumen #3 de [MUCH2012].
 
-3. Implementaciones de Máquinas de Estado:
+#### 3. Implementaciones de Máquinas de Estado:
 
 Las implementaciones varían en los conceptos que utilizan para representaar
 los estados y las transiciones.
@@ -59,11 +60,9 @@ goto.
 
 
 
-#Resolución
+# Resolución
 
-1)
-  b. Insertar imagen de arbol de expresion para inicializar contadores 2
-
+1)b. Insertar imagen de arbol de expresion para inicializar contadores 2
   c. Insertar imagen de arbol de expresion 2
 
 
@@ -78,29 +77,25 @@ goto.
 
 
 
-2)
+2
 
-a.
-
-
-
+a)
 Aunque en el gráfico no supe como agregarlo, el estado inicial debería tener un supraindice con el simbolo '-+' y el estado final uno con el '+'.
 
-b.
+b)
 
 Formalizo la máquina de estados como una 5-upla de la siguiente manera  (Q, Σ, T, q0, F),
 
-– Q es un conjunto finito no vacío de estados {Estado inicial, SAMELINE, NEWLINE, ENDOF(Estado Final)},
-– Σ es el alfabeto de caracteres reconocidos por la máquina de estados (Todos los caracteres que acepte el lenguaje C),
-– q0 ∈ Q es el estado inicial (Estado Inicial),
-– F ∈ Q es el conjunto no vacío de estados finales (Estado Final)
-– T: Q x Σ -> Q es la función de transiciones, es decir: T (q, x) = z significa que z es el estado al
+* Q es un conjunto finito no vacío de estados {Estado inicial, SAMELINE, NEWLINE, ENDOF(Estado Final)},
+* Σ es el alfabeto de caracteres reconocidos por la máquina de estados (Todos los caracteres que acepte el lenguaje C),
+* q0 ∈ Q es el estado inicial (Estado Inicial),
+* F ∈ Q es el conjunto no vacío de estados finales (Estado Final)
+* T: Q x Σ -> Q es la función de transiciones, es decir: T (q, x) = z significa que z es el estado al
 cual transita la máquina de estados desde el estado q, al leer el carácter x.
 
-3)
-a.
-ii. *Agregar ventajas y desventajas de esta version*
+3
 
-b. 
-iv. A veces se puede justificar su uso pero generalmente ya no se usa.
+a) ii. *Agregar ventajas y desventajas de esta version*
+
+b) iv. A veces se puede justificar su uso pero generalmente ya no se usa.
 
