@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "cctype": "cpp",
+        "cstdlib": "c",
+        "logger.h": "c",
+        "stdio.h": "c",
+        "stdarg.h": "c",
+        "stdlib.h": "c",
+        "string.h": "c"
+    }
+}
